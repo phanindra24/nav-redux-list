@@ -5,7 +5,7 @@ import { addNavigationHelpers, StackNavigator } from 'react-navigation';
 
 import LoginScreen from '../components/LoginScreen';
 import MainScreen from '../components/MainScreen';
-import ProfileScreen from '../components/ProfileScreen';
+import MapScreen from '../components/MapScreen';
 import HaystackScreen from '../components/HaystackScreen';
 
 export const AppNavigator = StackNavigator({
@@ -13,8 +13,8 @@ export const AppNavigator = StackNavigator({
 
   Main: { screen: HaystackScreen },
 
-  
-  Profile: { screen: ProfileScreen },
+
+  Map: { screen: MapScreen },
   // Haystack: {screen: HaystackScreen}
 });
 

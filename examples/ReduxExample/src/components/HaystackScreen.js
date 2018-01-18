@@ -103,6 +103,9 @@ class HaystackSectionListScreen extends React.Component {
 
 class HaystackScreen extends React.Component{
 
+    static navigationOptions={
+        title: 'Shopping List',
+    };
     render(){
       return <HaystackNavigator />
     }

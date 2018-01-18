@@ -4,8 +4,7 @@
   "private": true,
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
-    "postinstall":
-      "rm -rf node_modules/react-navigation/{node_modules,examples}",
+    "postinstall": "rm -rf node_modules/react-navigation/{node_modules,examples}",
     "start": "react-native-scripts start",
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
@@ -23,7 +22,7 @@
     ]
   },
   "dependencies": {
-    "expo": "^23.0.0",
+    "expo": "^23.0.6",
     "prop-types": "^15.5.10",
     "react": "16.0.0",
     "react-native": "^0.50.3",
