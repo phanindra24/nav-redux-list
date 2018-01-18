@@ -38,7 +38,7 @@ const MapScreen = () => (
             coordinate={{latitude: 17.4221,
             longitude: 78.3818}}
             title={"Zemoso"}
-            description={"description"}
+            description={"Groceries Store"}
          />
       
       </MapView>
