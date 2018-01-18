@@ -22,7 +22,7 @@ const LoginScreen = ({ navigation }) => (
       Screen A
     </Text>
     <Text style={styles.instructions}>
-      This is great
+      Please Enter Credentials
     </Text>
     <Button
       onPress={() => navigation.dispatch({ type: 'Login' })}
